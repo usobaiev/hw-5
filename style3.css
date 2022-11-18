@@ -128,6 +128,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   color: #000;
+  text-align: center;
 }
 
 .trophies-top__item {
@@ -135,35 +136,11 @@ body {
   height: 250px;
 }
 
-.box1 {
-  background-image: url(/images/084de469011ea90e1c00fb2d7bd36.jpeg);
+.trophies-top__item-img {
+  width: 300px;
+  height: 250px;
   background-position: center;
   background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.box2 {
-  background-image: url(/images/lcz16KNgOvQ.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.box3 {
-  background-image: url(/images/ocr.jfif);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.box4 {
-  background-image: url();
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.box5 {
-  background-image: url();
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -195,6 +172,7 @@ body {
   font-size: 16px;
   color: #000;
   gap: 30px;
+  text-align: center;
 }
 
 .trophies-bottom__item {
@@ -202,14 +180,9 @@ body {
   height: 250px;
 }
 
-.box4 {
-  background-image: url(/images/61220510198631.560e0f51c071a.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.box5 {
-  background-image: url(/images/4xuJi98Xsmo.jpg);
+.trophies-bottom__item-img {
+  width: 300px;
+  height: 250px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
