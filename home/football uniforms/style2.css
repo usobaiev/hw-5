@@ -1,0 +1,201 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  font-family: "Open Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #373a39;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.header {
+  background-image: url(./images/Botiga.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  height: 94px;
+  position: relative;
+}
+
+.header__top-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+.logo {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo__img {
+  width: 30px;
+  height: 30px;
+}
+.logo__img-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: 0.6px;
+  color: #fff;
+  margin-left: 8px;
+}
+.menu {
+  padding-top: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.menu__list {
+  display: flex;
+  list-style-type: none;
+  /* margin-right: 53px; */
+  width: 100%;
+}
+.menu__list-item + .menu__list-item {
+  margin-left: 50px;
+}
+.menu__link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: 0.6px;
+  color: #fff;
+}
+.menu__link:hover {
+  border-bottom: 1px solid #fcbb08;
+}
+.header__content-inner {
+  margin-top: 213px;
+  margin-bottom: 284px;
+  text-align: center;
+  padding-bottom: 19px;
+}
+
+.header__content-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 0px;
+  color: #fff;
+}
+
+.barcelona__inner {
+  display: flex;
+  margin-top: 153px;
+  margin-bottom: 50px;
+}
+
+.barcelona__img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  width: 600px;
+}
+
+.barcelona__content {
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.barcelona__title {
+  min-width: 267px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 75px;
+  z-index: 1;
+  height: 93px;
+  display: inline;
+  position: relative;
+  padding-bottom: 40px;
+}
+.barcelona__title::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  bottom: 40px;
+  height: 1px;
+  width: 60px;
+  border-bottom: 4px solid #fcbb08;
+}
+.barcelona__text {
+  max-width: 770px;
+  height: 180px;
+  text-align: center;
+  padding-top: 50px;
+}
+.footer__top {
+  margin-top: 150px;
+  background-color: #373a39;
+  color: #a8a8a8;
+  display: flex;
+  height: 200px;
+}
+
+.footer__bottom {
+  background-color: #2a2c2b;
+  color: #cccccc;
+  text-align: center;
+}
+.footer__title {
+  padding-top: 43px;
+  padding-bottom: 41px;
+}
+@media (max-width: 1100px) {
+  .barcelona__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .barcelona__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .barcelona__title::before {
+    top: 136px;
+  }
+}
+
+/* ADAPTIVE */
+
+@media (max-width: 630px) {
+  .header__content-title {
+    font-size: 35px;
+  }
+  .barcelona__img {
+    width: 400px;
+    height: 255px;
+  }
+}
